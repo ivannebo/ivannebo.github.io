@@ -1,47 +1,35 @@
-﻿<html><br>
-	<head>	<br>
-	</head><br>
-	<body>	<br>
-	<p>онлайн-галлерея</p><br>
-	<ul><br>
-	<img src=schiavona.jpg><br>
-	<p>Тициан. Портрет дамы (Ла Скьявона). 1508-1510</p>
-	<img src=woman-mirror.jpg><br>
-	<p>Тициан. Женщина перед зеркалом. Ок. 1514</p>
-	<img src=flora.jpg><br>
-		<p>Тициан. Виоланта. Ок. 1514</p>
-		<img src=violanta.jpg><br>
-		<p>Тициан. Флора. 1515-1520</p>
-		<img src=vanity.jpg><br>
-		<p>Тициан. Тщеславие. Ок. 1515</p>
-		<img src=judith-1515.jpg><br>
-		<p>Тициан. Юдифь. Ок. 1515</p>
-		<img src=laura.jpg><br>
-		<p>Тициан. Портрет Лауры Эвстокии. Ок. 1529</p>
-		<img src=bella.jpg><br>
-		<p>Тициан. Красавица. 1536</p>
-		<img src=isabella-este.jpg><br>
-		<p>Тициан. Портрет Изабеллы д'Эсте, герцогини Мантуанской. 1536</p>
-		<img src=eleonora-gonzaga.jpg><br>
-		<p>Тициан. Портрет Элеоноры Гонзага. Ок. 1538</p>
-		<img src=cap-plume.jpg><br>
-		<p>Тициан. Портрет молодой женщины в шляпе с пером. Ок. 1536</p>
-		<img src=fur-coat.jpg><br>
-		<p>Тициан. Девушка в меху. 1536-1538</p>
-		<img src=clarissa.jpg><br>
-		<p>Тициан. Портрет девушки. 1545</p>
-		<img src=varano.jpg><br>
-		<p>Тициан. Портрет Джулии Варано, герцогини Урбинской. 1545-1547</p>
-		<img src=isabella-portugal.jpg><br>
-		<p>Тициан. Портрет Изабеллы Португальской. 1548</p>
-		<img src=dish-fruit.jpg><br>
-		<p>Тициан. Девушка с блюдом фруктов. Ок. 1555</p>
-		<img src=fan.jpg><br>
-		<p>Тициан. Портрет девушки с веером. Ок. 1556</p>
-	</ul><br>
-	<br>
-	<br>
-	
-	<br>
-	</body><br>
+<html>
+<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="/someimage.jpg" />
+		<title></title>
+	</head>
+<body>
+<form>
+<fieldset>
+<legend>Данные о пользователе</legend>
+Имя: <br /><input type='text' name='firstname' /><br />
+Фамилия:<br /> <input type='text' name='lastname' /><br />
+Отчество: <br /><input type='text' name='lastname' /><br />
+<p>Укажите ваш пол:</p>
+<input type='radio' name='s' value='m' /> Мужской<br />
+<input type='radio' name='s' value='f' /> Женский
+</fieldset>
+<fieldset>
+<legend> Анкета: </legend>
+<p>Как вы относитесь к полетам в космос:</p>
+<input type='checkbox' name='space' value='1' /> 
+Положительно, всегда хотел полететь в космос<br />
+<input type='checkbox' name='space' value='2' /> 
+Безразлично, никогда не думал об этом серьезно <br />
+<input type='checkbox' name='space' value='3' /> 
+Отрицательно, меня с детства отталкивают мысли о космосе <br />
+</fieldset>
+
+</form>
+<form name="input" action="download.php" method="get">
+
+<input type="submit" value="Отправить" />
+</form>
+</body>
 </html>
