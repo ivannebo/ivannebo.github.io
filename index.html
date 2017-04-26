@@ -26,10 +26,28 @@
 Отрицательно, меня с детства отталкивают мысли о космосе <br />
 </fieldset>
 
-</form>
-<form name="input" action="download.php" method="get">
 
-<input type="submit" value="Отправить" />
-</form>
 </body>
+<body>
+	
+	<?php
+
+	// Открыть текстовый файл
+	$f = fopen("textfile.txt", "w");
+
+	// Записать строку текста
+	fwrite($f, "PHP is fun!"); 
+
+	// Закрыть текстовый файл
+	fclose($f);
+
+	// Открыть файл для чтения и прочитать строку
+	$f = fopen("textfile.txt", "r");
+	echo fgets($f); 
+
+	fclose($f);
+
+	?>
+
+	</body>
 </html>
